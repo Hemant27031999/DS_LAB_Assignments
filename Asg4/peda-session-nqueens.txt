@@ -1,0 +1,3 @@
+break /home/hemant/Desktop/Asg4/nqueens.cpp:24
+break /home/hemant/Desktop/Asg4/nqueens.cpp:30
+

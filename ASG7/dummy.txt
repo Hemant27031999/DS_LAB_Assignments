@@ -1,0 +1,73 @@
+
+Problem 2 :
+A binomial heap is implemented as a set of binomial trees, which are defined recursively as follows: x A binomial tree of order 0 is a single node x A binomial tree of order k has a root node whose children are roots of binomial trees of orders k−1, k−2, ..., 2, 1, 0 (in this order). x A binomial tree of order k has 2k nodes, height k. 
+Write a C++ program to implement a binomial heap using heap data structures (without using STL). 
+Print the order of each binomial heap and use Graphviz to show the forest of binomial heap.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algorithms Used :
+A Binary Heap is a Binary Tree with following properties.
+1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
+2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to MinHeap.
+Data Structure Used :
+1.Linked List
+2.Structures
+Snapshots :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 3 :
+Write a C++ program to implement Bentley-Ottmann Algorithm to find and print all the intersection points of n given lines. Use of STL is allowed. The specific type of data structure that must be used include Priority Queue and BST. Using least square method find the linear fit of the M found intersection points and print the line in the form ax+b. The student should demonstrate this on a GUI using QT library. The input should be given in following format: 
+1. Input number of line segments, N
+2. N lines where 2N points are provided, i.e., 2 points in each line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algorithms Used :
+1.Bentley-Ottmann Algorithm
+Data Structure Used :
+1.Priority Queue
+2.BST
+3.List
